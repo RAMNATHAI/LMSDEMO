@@ -1,7 +1,7 @@
 # 🎓 LMS Prototype - CHECKPOINT 50
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://ramnathai.github.io/LMSDEMO/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/RAMNATHAI/LMSDEMO)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
@@ -10,7 +10,7 @@
 
 A comprehensive Learning Management System prototype featuring advanced course catalog with 3-tier filtering, leaderboards, AI-powered recommendations, achievements, and social features.
 
-## 🌐 **[🚀 LIVE DEMO - Click Here!](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)**
+## 🌐 **[🚀 LIVE DEMO - Click Here!](https://ramnathai.github.io/LMSDEMO/)**
 **Demo Credentials:** demo@lms.com / demo123
 
 ### 🎯 **Try It Now:**
@@ -78,20 +78,20 @@ A comprehensive Learning Management System prototype featuring advanced course c
 ## 🚀 **Quick Start**
 
 ### **Option 1: Try Live Demo**
-Visit: **https://ramnathai.github.io/LMS-PROTYPE-DEMO/**
+Visit: **https://ramnathai.github.io/LMSDEMO/**
 
 ### **Option 2: Run Locally**
 ```bash
-git clone https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO.git
-cd LMS-PROTYPE-DEMO
+git clone https://github.com/RAMNATHAI/LMSDEMO.git
+cd LMSDEMO
 npm install
 npm run dev
 ```
 
 ### **Option 3: Docker (Coming Soon)**
 ```bash
-git clone https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO.git
-cd LMS-PROTYPE-DEMO
+git clone https://github.com/RAMNATHAI/LMSDEMO.git
+cd LMSDEMO
 # Docker setup will be added
 ```
 
