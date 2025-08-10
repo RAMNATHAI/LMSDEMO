@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/LMS-PROTYPE-DEMO/',
+  base: process.env.NODE_ENV === 'production' ? '/LMS-PROTYPE-DEMO/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
