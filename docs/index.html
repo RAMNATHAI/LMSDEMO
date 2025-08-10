@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Prototype - CHECKPOINT 50 Demo</title>
+    <meta name="description" content="Advanced Learning Management System prototype with course catalog filtering, leaderboards, and AI recommendations">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; color: white; padding: 40px 0; }
+        .header h1 { font-size: 3em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .main-card { background: white; border-radius: 20px; padding: 40px; margin: 30px 0; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .demo-buttons { text-align: center; margin: 30px 0; }
+        .btn { display: inline-block; padding: 15px 30px; margin: 10px; border-radius: 50px; text-decoration: none; font-weight: bold; transition: all 0.3s; }
+        .btn-primary { background: linear-gradient(45deg, #667eea, #764ba2); color: white; }
+        .btn-secondary { background: linear-gradient(45deg, #f093fb, #f5576c); color: white; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+        .feature-card { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 30px; border-radius: 15px; text-align: center; }
+        .feature-icon { font-size: 3em; margin-bottom: 15px; }
+        .feature-card h3 { color: #333; margin-bottom: 15px; }
+        .feature-card p { color: #666; line-height: 1.6; }
+        .tech-badges { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 30px 0; }
+        .badge { background: #667eea; color: white; padding: 8px 16px; border-radius: 20px; font-size: 14px; }
+        .demo-info { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 30px; border-radius: 15px; margin: 30px 0; text-align: center; }
+        .code-block { background: #2d3748; color: #e2e8f0; padding: 20px; border-radius: 10px; margin: 20px 0; overflow-x: auto; }
+        .highlight { background: linear-gradient(45deg, #ff9a9e, #fecfef); padding: 20px; border-radius: 15px; margin: 20px 0; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 LMS Prototype</h1>
+            <p>CHECKPOINT 50 - Advanced Course Catalog with Filtering System</p>
+        </div>
+
+        <div class="main-card">
+            <div class="highlight">
+                <h2>🌟 Complete Learning Management System</h2>
+                <p style="font-size: 18px; margin: 15px 0;">
+                    Experience a comprehensive LMS with advanced filtering, leaderboards, AI recommendations, and social features
+                </p>
+            </div>
+
+            <div class="tech-badges">
+                <span class="badge">React 18</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">Docker Ready</span>
+                <span class="badge">12 Courses</span>
+                <span class="badge">Advanced Filtering</span>
+                <span class="badge">Leaderboards</span>
+                <span class="badge">AI Recommendations</span>
+            </div>
+
+            <div class="demo-buttons">
+                <a href="https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO" class="btn btn-primary" target="_blank">
+                    📂 View Source Code
+                </a>
+                <a href="https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO/archive/refs/heads/main.zip" class="btn btn-secondary">
+                    📥 Download Demo
+                </a>
+            </div>
+
+            <div class="demo-info">
+                <h3>🚀 Quick Start Demo</h3>
+                <p><strong>Demo Credentials:</strong> demo@lms.com / demo123</p>
+                <p>No installation required with Docker!</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Advanced Course Catalog</h3>
+                    <p>12 courses with 3-tier filtering by Course Type, Difficulty Level, and Department. Real-time filtering with enhanced visual indicators.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Leaderboard System</h3>
+                    <p>Daily, Weekly, Monthly rankings with trophy rewards. User statistics, achievement tracking, and competitive learning environment.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Recommendations</h3>
+                    <p>Personalized course suggestions using collaborative filtering and content-based matching with detailed analytics.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎖️</div>
+                    <h3>Achievement System</h3>
+                    <p>Badge collection, skill profiles, learning streaks, and gamified learning experience with social recognition.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Social Features</h3>
+                    <p>User profiles, discussion forums, peer connections, and collaborative learning tools for community engagement.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🐳</div>
+                    <h3>Docker Ready</h3>
+                    <p>Complete containerization with quick start scripts for all platforms. Production-ready and easy to deploy.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <h2>🛠️ How to Run the Demo</h2>
+                
+                <h3 style="color: #667eea; margin: 30px 0 15px 0;">Option 1: Docker (Recommended)</h3>
+                <div class="code-block">
+git clone https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO.git
+cd LMS-PROTYPE-DEMO
+start-demo.bat    # Windows
+./start-demo.sh   # Linux/Mac
+
+# Access: http://localhost:3000
+                </div>
+
+                <h3 style="color: #667eea; margin: 30px 0 15px 0;">Option 2: Local Development</h3>
+                <div class="code-block">
+git clone https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO.git
+cd LMS-PROTYPE-DEMO
+npm install
+npm run dev
+
+# Access: http://localhost:5173
+                </div>
+            </div>
+
+            <div style="text-align: center; margin: 40px 0; padding: 30px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); border-radius: 15px;">
+                <h2>🎯 What You'll Experience</h2>
+                <p style="font-size: 16px; line-height: 1.6; margin: 15px 0;">
+                    ✅ Complete LMS with all CHECKPOINT 50 features<br>
+                    ✅ Advanced course filtering and search<br>
+                    ✅ Interactive leaderboards and achievements<br>
+                    ✅ AI-powered course recommendations<br>
+                    ✅ Social features and user profiles<br>
+                    ✅ Mobile-responsive design<br>
+                    ✅ Professional UI/UX experience
+                </p>
+            </div>
+
+            <div style="text-align: center; color: #666; margin: 40px 0;">
+                <p>Built with ❤️ using React, TypeScript, and modern web technologies</p>
+                <p>© 2024 LMS Prototype - CHECKPOINT 50 | Open Source Educational Project</p>
+                <p style="margin-top: 20px;">
+                    <a href="https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO" style="color: #667eea;">⭐ Star this project on GitHub</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

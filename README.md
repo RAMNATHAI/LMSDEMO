@@ -1,6 +1,7 @@
 # 🎓 LMS Prototype - Learning Management System Demo
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://lms-protype-demo.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
@@ -9,8 +10,14 @@
 
 A comprehensive Learning Management System prototype featuring course catalog with advanced filtering, leaderboards, recommendations, achievements, and social features.
 
-## 🌐 **[🚀 LIVE DEMO - Click Here!](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)**
+## 🌐 **[🚀 LIVE DEMO - Click Here!](https://lms-protype-demo.vercel.app/)**
 **Demo Credentials:** demo@lms.com / demo123
+
+### 🎯 **Try It Now:**
+- **No installation required** - works in any browser
+- **Full LMS experience** with all features
+- **Mobile responsive** design
+- **Instant access** to all modules
 
 ## 🚀 Quick Start
 
