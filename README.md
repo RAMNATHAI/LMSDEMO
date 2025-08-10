@@ -1,6 +1,6 @@
 # 🎓 LMS Prototype - Learning Management System Demo
 
-[![Demo Status](https://img.shields.io/badge/Demo-Live-brightgreen)](http://localhost:3000)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
@@ -9,13 +9,22 @@
 
 A comprehensive Learning Management System prototype featuring course catalog with advanced filtering, leaderboards, recommendations, achievements, and social features.
 
+## 🌐 **[🚀 LIVE DEMO - Click Here!](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)**
+**Demo Credentials:** demo@lms.com / demo123
+
 ## 🚀 Quick Start
 
-### Option 1: Docker (Recommended)
+### Option 1: Live Demo (No Installation Required)
+**🌐 [Access Live Demo](https://ramnathai.github.io/LMS-PROTYPE-DEMO/)**
+- No download or installation needed
+- Works directly in your browser
+- Demo credentials: demo@lms.com / demo123
+
+### Option 2: Docker (Recommended for Local)
 ```bash
 # Clone repository
-git clone <repository-url>
-cd lms-prototype
+git clone https://github.com/RAMNATHAI/LMS-PROTYPE-DEMO.git
+cd LMS-PROTYPE-DEMO
 
 # Start with Docker
 ./start-demo.sh    # Linux/Mac
@@ -24,7 +33,7 @@ start-demo.bat     # Windows
 # Open: http://localhost:3000
 ```
 
-### Option 2: Local Development
+### Option 3: Local Development
 ```bash
 # Install dependencies
 npm install
